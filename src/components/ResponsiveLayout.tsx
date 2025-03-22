@@ -1,12 +1,10 @@
-import Footer from "./Footer"
 import Header from "./Header"
 import MainHero from "./MainHero"
 
 function ResponsiveLayout() {
-  return <div className="flex flex-col h-screen w-full">
+  return <div className="flex flex-col h-screen w-full font-mono">
     <div><Header/></div>
     <div className="h-full w-full"><MainHero/></div>
-    <div><Footer/></div>
   </div>
 }
 export default ResponsiveLayout
