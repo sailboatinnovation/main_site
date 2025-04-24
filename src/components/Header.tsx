@@ -23,9 +23,9 @@ function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-white shadow z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center h-16">
-        <div className="text-xl font-bold"><img src={logo} alt="Sailboat Logo" className=" w-20 h-24 p-2 mx-8 object-contain " /></div>
+    <header className="fixed top-0 left-0 w-full bg-white shadow z-50 ">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 lg:justify-evenly">
+        <div className="text-xl font-bold"><img src={logo} alt="Sailboat Logo" className=" w-20 h-24 p-2 object-contain " /></div>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-8">
